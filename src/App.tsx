@@ -1,13 +1,11 @@
-import { useState } from "react";
+import { AppContainer } from "./styles/App.styles";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+export function App() {
   return (
     <>
-      <div></div>
+      <AppContainer>
+        <div>Front end mentor challenge</div>
+      </AppContainer>
     </>
   );
 }
-
-export default App;
