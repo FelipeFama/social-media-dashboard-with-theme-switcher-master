@@ -19,3 +19,4 @@ export const HeaderSubtitle = styled.p`
   margin-bottom: 0.25rem;
   color: ${(props) => props.theme.textSecondary};
 `;
+

@@ -1,13 +1,19 @@
+import { useState } from "react";
 import Header from "./components/Header";
-import { AppContainer } from "./styles/App.styles";
+import { AppContainer, theme } from "./styles/App.styles";
+import { ThemeProvider } from "styled-components";
 
 export function App() {
+  const [mode, setMode] = useState<"light" | "dark">("dark");
+
   return (
     <>
-      <AppContainer>
-        <Header />
-        <main></main>
-      </AppContainer>
+      <ThemeProvider theme={theme[mode]}>
+        <AppContainer>
+          <Header />
+          <main></main>
+        </AppContainer>
+      </ThemeProvider>
     </>
   );
 }
