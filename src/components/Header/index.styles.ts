@@ -5,6 +5,10 @@ export const HeaderContainer = styled.header`
   flex-direction: column;
   width: 100%;
   padding-bottom: 1.5rem;
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 export const HeaderTitle = styled.h1`
@@ -25,6 +29,9 @@ export const Separator = styled.div`
   margin: 1.5rem 0;
   padding: 0.5px;
   width: 100%;
+  @media (min-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const SwitchContainer = styled.nav`
@@ -32,6 +39,14 @@ export const SwitchContainer = styled.nav`
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  @media (min-width: 1024px) {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    gap: 1rem;
+    align-self: center;
+    justify-self: flex-end;
+    width: auto;
+  }
 `;
 
 export const SwitchLabel = styled.label`
