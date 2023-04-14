@@ -5,4 +5,5 @@ export const SocialContainer = styled.div`
   flex-direction: column;
   width: 100%;
   gap: 1.5rem;
+  margin-bottom: 3rem;
 `;

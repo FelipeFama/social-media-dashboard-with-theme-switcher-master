@@ -6,7 +6,7 @@ export const Data = [
     type: "followers",
     count: 1987,
     today: 12,
-    icon: "icon-facebook.svg",
+    icon: "/icons/icon-facebook.svg",
     color: "hsl(208, 92%, 53%)",
     overview: [
       {
@@ -30,7 +30,7 @@ export const Data = [
     type: "followers",
     count: 1044,
     today: 99,
-    icon: "icon-twitter.svg",
+    icon: "/icons/icon-twitter.svg",
     color: "hsl(203, 89%, 53%)",
     overview: [
       {
@@ -54,7 +54,7 @@ export const Data = [
     type: "followers",
     count: 11000,
     today: 1099,
-    icon: "icon-instagram.svg",
+    icon: "/icons/icon-instagram.svg",
     color: "linear-gradient(135deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
     overview: [
       {
@@ -78,7 +78,7 @@ export const Data = [
     type: "subscribers",
     count: 8239,
     today: -144,
-    icon: "icon-youtube.svg",
+    icon: "/icons/icon-youtube.svg",
     color: "hsl(348, 97%, 39%)",
     overview: [
       {
