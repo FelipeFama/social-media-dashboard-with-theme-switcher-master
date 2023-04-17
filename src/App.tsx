@@ -15,8 +15,8 @@ export function App() {
   return (
     <>
       <ThemeProvider theme={theme[mode]}>
+        <Header currentTheme={mode} toggleTheme={handleThemeChange} />
         <AppContainer>
-          <Header currentTheme={mode} toggleTheme={handleThemeChange} />
           <main>
             <Social />
           </main>

@@ -4,10 +4,12 @@ export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-bottom: 1.5rem;
+  padding: 2rem 1.5rem;
+  background-color: ${(props) => props.theme.topBackgroundPattern};
   @media (min-width: 1024px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10%;
   }
 `;
 
@@ -15,6 +17,7 @@ export const HeaderTitle = styled.h1`
   font-size: 1.825rem;
   font-weight: 700;
   margin-bottom: 0.25rem;
+  color: ${(props) => props.theme.textPrimary};
 `;
 
 export const HeaderSubtitle = styled.p`
