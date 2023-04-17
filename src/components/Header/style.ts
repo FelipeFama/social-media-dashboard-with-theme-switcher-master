@@ -4,20 +4,24 @@ export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 2rem 1.5rem;
+  padding: 5rem 1.5rem;
   background-color: ${(props) => props.theme.topBackgroundPattern};
   @media (min-width: 1024px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 10%;
+    padding: 8rem 10%;
   }
 `;
 
 export const HeaderTitle = styled.h1`
   font-size: 1.825rem;
   font-weight: 700;
+  margin-top: -3rem;
   margin-bottom: 0.25rem;
   color: ${(props) => props.theme.textPrimary};
+  @media (min-width: 1024px) {
+    margin-top: -7rem;
+  }
 `;
 
 export const HeaderSubtitle = styled.p`
@@ -25,6 +29,9 @@ export const HeaderSubtitle = styled.p`
   font-weight: 700;
   margin-bottom: 0.25rem;
   color: ${(props) => props.theme.textSecondary};
+  @media (min-width: 1024px) {
+    margin-top: -4rem;
+  }
 `;
 
 export const Separator = styled.div`
@@ -47,6 +54,7 @@ export const SwitchContainer = styled.nav`
     grid-row: 1/3;
     gap: 1rem;
     align-self: center;
+    margin-top: -11rem;
     justify-self: flex-end;
     width: auto;
   }
