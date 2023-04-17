@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import { AppContainer, theme } from "./styles/App.styles";
+import { theme } from "./styles/theme";
+import { AppContainer } from "./styles/styles";
 import { ThemeProvider } from "styled-components";
+import Header from "./components/Header";
 import Social from "./components/Social";
 
 export function App() {

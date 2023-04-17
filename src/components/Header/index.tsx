@@ -7,7 +7,7 @@ import {
   SwitchButton,
   SwitchContainer,
   SwitchLabel,
-} from "./index.styles";
+} from "./style";
 interface HeaderProps {
   currentTheme: string;
   toggleTheme: () => void;

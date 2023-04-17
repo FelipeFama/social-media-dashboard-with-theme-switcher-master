@@ -8,7 +8,7 @@ import {
   CardImage,
   CardTitle,
   CardType,
-} from "./index.styles";
+} from "./style";
 
 interface SocialCardProps {
   type: "followers" | "subscribers";

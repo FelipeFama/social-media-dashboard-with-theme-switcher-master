@@ -1,5 +1,3 @@
-import styled from "styled-components";
-
 export const theme = {
   light: {
     background: "hsl(0, 0%, 100%)",
@@ -18,17 +16,3 @@ export const theme = {
     textSecondary: "hsl(228, 34%, 66%)",
   },
 };
-
-export const AppContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 1.5rem;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: ${(props) => props.theme.background};
-  color: ${(props) => props.theme.textPrimary};
-
-  @media (min-width: 1024px) {
-    padding: 2rem 10%;
-  }
-`;
