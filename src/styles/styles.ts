@@ -9,6 +9,6 @@ export const AppContainer = styled.div`
   background-color: ${(props) => props.theme.background};
   color: ${(props) => props.theme.textPrimary};
   @media (min-width: 1024px) {
-    padding: 2rem 10%;
+    padding: 2rem 8%;
   }
 `;

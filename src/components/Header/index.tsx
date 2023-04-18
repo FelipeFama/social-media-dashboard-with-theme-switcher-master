@@ -25,6 +25,8 @@ export default function Header({ currentTheme, toggleTheme }: HeaderProps) {
       <SwitchContainer>
         <SwitchLabel>Dark mode</SwitchLabel>
         <SwitchButton
+          type="button"
+          aria-pressed="false"
           className={currentTheme}
           onClick={() => {
             handleThemeChange();

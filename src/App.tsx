@@ -4,6 +4,7 @@ import { AppContainer } from "./styles/styles";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Social from "./components/Social";
+import Overview from "./components/Overview";
 
 export function App() {
   const [mode, setMode] = useState<"light" | "dark">("dark");
@@ -19,6 +20,7 @@ export function App() {
         <AppContainer>
           <main>
             <Social />
+            <Overview />
           </main>
         </AppContainer>
       </ThemeProvider>
