@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const OverviewContainer = styled.section`
-  margin-top: -10rem;
+  margin-top: -6rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -10,6 +10,7 @@ export const OverviewContainer = styled.section`
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 3rem;
+    margin-top: -10rem;
   }
 `;
 
