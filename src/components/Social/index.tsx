@@ -1,4 +1,3 @@
-import React from "react";
 import SocialCards from "../SocialCards";
 import { Data } from "../../data";
 import { SocialContainer } from "./style";
