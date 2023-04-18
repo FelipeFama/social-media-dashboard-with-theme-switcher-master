@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const OverviewContainer = styled.div`
+export const OverviewContainer = styled.section`
+  margin-top: -10rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;

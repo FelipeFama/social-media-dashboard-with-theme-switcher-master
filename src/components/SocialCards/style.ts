@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.article`
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;

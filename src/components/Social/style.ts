@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SocialContainer = styled.div`
+export const SocialContainer = styled.section`
   position: relative;
   top: -5rem;
   display: flex;
