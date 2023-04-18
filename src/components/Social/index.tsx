@@ -1,10 +1,10 @@
 import SocialCards from "../SocialCards";
-import { Data } from "../../data";
+import { SocialData } from "../../data/social";
 import { SocialContainer } from "./style";
 
 export default function Social() {
   function getSocialCards() {
-    return Data.map((item) => (
+    return SocialData.map((item) => (
       <SocialCards
         key={item.id}
         type={item.type as "followers" | "subscribers"}

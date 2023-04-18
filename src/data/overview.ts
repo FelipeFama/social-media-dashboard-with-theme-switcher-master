@@ -1,4 +1,4 @@
-export const Data = [
+export const OverviewData = [
   {
     id: 1,
     social: "facebook",
@@ -25,30 +25,6 @@ export const Data = [
   },
   {
     id: 2,
-    social: "twitter",
-    user: "@nathanf",
-    type: "followers",
-    count: 1044,
-    today: 99,
-    icon: "/icons/icon-twitter.svg",
-    color: "hsl(203, 89%, 53%)",
-    overview: [
-      {
-        id: 1,
-        type: "retweets",
-        count: 117,
-        today: 303,
-      },
-      {
-        id: 2,
-        type: "likes",
-        count: 507,
-        today: 553,
-      },
-    ],
-  },
-  {
-    id: 3,
     social: "instagram",
     user: "@realnathanf",
     type: "followers",
@@ -71,6 +47,31 @@ export const Data = [
       },
     ],
   },
+  {
+    id: 3,
+    social: "twitter",
+    user: "@nathanf",
+    type: "followers",
+    count: 1044,
+    today: 99,
+    icon: "/icons/icon-twitter.svg",
+    color: "hsl(203, 89%, 53%)",
+    overview: [
+      {
+        id: 1,
+        type: "retweets",
+        count: 117,
+        today: 303,
+      },
+      {
+        id: 2,
+        type: "likes",
+        count: 507,
+        today: 553,
+      },
+    ],
+  },
+
   {
     id: 4,
     social: "youtube",

@@ -1,10 +1,10 @@
-import { Data } from "../../data";
+import { OverviewData } from "../../data/overview";
 import OverviewCards from "../OverviewCards";
 import { OverviewContainer, OverviewTitle } from "./style";
 
 export default function Overview() {
   function getOverviewCards() {
-    return Data.map((item) =>
+    return OverviewData.map((item) =>
       item.overview.map((overviewItem) => (
         <OverviewCards
           key={overviewItem.id}
