@@ -1,14 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
-:root {
-    color-scheme: light dark;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  }
-  
+export const GlobalStyles = createGlobalStyle`  
   * {
     box-sizing: border-box;
     margin: 0;
