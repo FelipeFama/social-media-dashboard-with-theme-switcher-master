@@ -7,10 +7,12 @@ import {
   SwitchContainer,
   SwitchLabel,
 } from "./style";
+
 interface HeaderProps {
   currentTheme: string;
   toggleTheme: () => void;
 }
+
 export default function Header({ currentTheme, toggleTheme }: HeaderProps) {
   const handleThemeChange = () => {
     toggleTheme();
