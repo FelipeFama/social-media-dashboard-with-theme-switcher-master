@@ -28,11 +28,11 @@ export default function Header({ currentTheme, toggleTheme }: HeaderProps) {
         <SwitchButton
           type="button"
           aria-pressed="false"
+          aria-label="theme button"
           className={currentTheme}
           onClick={() => {
             handleThemeChange();
-          }}
-        ></SwitchButton>
+          }}></SwitchButton>
       </SwitchContainer>
     </HeaderContainer>
   );

@@ -18,10 +18,8 @@ export function App() {
       <ThemeProvider theme={theme[mode]}>
         <Header currentTheme={mode} toggleTheme={handleThemeChange} />
         <AppContainer>
-          <main>
-            <Social />
-            <Overview />
-          </main>
+          <Social />
+          <Overview />
         </AppContainer>
       </ThemeProvider>
     </>
